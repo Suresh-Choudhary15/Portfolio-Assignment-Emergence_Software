@@ -31,7 +31,7 @@ app = FastAPI(title="Portfolio AI Chat API")
 # CORS for frontend (default Vite port 5173)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["http://localhost:5173","https://portfolio-assignment-emergence-software.pages.dev"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
